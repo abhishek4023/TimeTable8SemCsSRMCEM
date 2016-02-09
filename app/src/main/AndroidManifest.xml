@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs8semsrmcem.android.com.cs8semtt" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TimeTable"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".cs81"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abhishekmaurya.timetable.cs81" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".cs82"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abhishekmaurya.timetable.cs82" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cs83"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abhishekmaurya.timetable.cs83" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".cs84"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abhishekmaurya.timetable.cs84" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".notificweb"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abhishekmaurya.timetable.notificweb" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".devlopmy"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abhishekmaurya.timetable.devlopmy" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".timing"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abhishekmaurya.timetable.timing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#3F51B5"
+        android:text="Timing"
+        android:textColor="#FFFFFF"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"/>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="First: 8:45-10:00"
+                android:textSize="30dp"
+                android:background="#ff4584aa"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/txtfirst"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Second: 10:00-11:00"
+                android:textSize="30dp"
+                android:background="#ff4584aa"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/txtsec"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Third: 11:00-12:00"
+                android:textSize="30dp"
+                android:background="#ff4584aa"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/txtthir"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Fourth: 12:50-1:45"
+                android:textSize="30dp"
+                android:background="#ff4584aa"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/txtfour"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Fifth: 1:45-2:40"
+                android:textSize="30dp"
+                android:background="#ff4584aa"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/txtfif"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sixth: 2:40-3:35"
+                android:textSize="30dp"
+                android:background="#ff4584aa"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/txtsix"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Seventh: 3:35-4:30"
+                android:textSize="30dp"
+                android:background="#ff4584aa"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/txtsev"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

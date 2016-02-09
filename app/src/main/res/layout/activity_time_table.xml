@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  tools:context=".TimeTable"
+    android:orientation="vertical"
+    android:background="#f44336">
+
+
+        <TextView android:text="TimeTable"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#f44336"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CS-81"
+                android:id="@+id/btncs81"
+                android:layout_weight="1"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:textSize="40dp"
+                android:id="@+id/btncs82"
+
+                android:layout_height="wrap_content"
+                android:text="CS-82"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#009688"
+                android:textColor="#fff"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CS-83"
+                android:id="@+id/btncs83"
+
+                android:layout_weight="1"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:background="#795548"
+                android:textColor="#fff"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:textSize="40dp"
+                android:layout_height="wrap_content"
+                android:text="CS-84"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#2196f3"
+                android:textColor="#fff"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+                android:id="@+id/btncs84"
+
+
+                />
+
+        </LinearLayout>
+
+        <Button android:text="Resources"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:id="@+id/btnnotweb"
+
+            android:background="#424242"
+            android:textColor="#ffffff"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:layout_width="0dp"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                android:text="Timing"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#c51162"
+                android:textColor="#fff"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+                android:id="@+id/btntim"
+
+
+                />
+            <Button
+                android:layout_width="0dp"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                android:text="Developer"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#1a237e"
+                android:textColor="#fff"
+                android:id="@+id/btndev"
+
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+
+
+                />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
