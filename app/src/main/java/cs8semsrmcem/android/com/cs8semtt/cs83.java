@@ -85,10 +85,10 @@ public class cs83 extends Activity {
             case 1 :
             {
                 t1.setText("Quiz");
-                t2.setText("DIP");
-                t3.setText("DDB");
-                t4.setText("SDP");
-                t5.setText("DS tut");
+                t2.setText("SPM/Crypto");
+                t3.setText("Mobile");
+                t4.setText("Free");
+                t5.setText("Free");
                 t6.setText("Free");
                 t7.setText("Free");
                 break;
@@ -97,23 +97,23 @@ public class cs83 extends Activity {
 
             case 2 :
             {
-                t1.setText("DS");
-                t2.setText("PA/PR");
-                t3.setText("EOE");
-                t4.setText("DS LAB");
-                t5.setText("DS LAB");
-                t6.setText("SDP");
-                t7.setText("SDP");
+                t1.setText("AI");
+                t2.setText("Project");
+                t3.setText("NCER");
+                t4.setText("Project");
+                t5.setText("AI tut");
+                t6.setText("Free");
+                t7.setText("Free");
                 break;
             }
 
             case 3 :
             {
-                t1.setText("PA/PR");
-                t2.setText("EOE");
-                t3.setText("DS");
-                t4.setText("DIP tut");
-                t5.setText("DDB tut");
+                t1.setText("SPM/Crypto");
+                t2.setText("Project");
+                t3.setText("Project");
+                t4.setText("Free");
+                t5.setText("Free");
                 t6.setText("Free");
                 t7.setText("Free");
                 break;
@@ -122,36 +122,36 @@ public class cs83 extends Activity {
 
             case 4 :
             {
-                t1.setText("DIP");
-                t2.setText("PA/PR");
-                t3.setText("EOE");
-                t4.setText("DIP LAB");
-                t5.setText("DIP LAB");
-                t6.setText("Project");
-                t7.setText("Project");
+                t1.setText("Mobile");
+                t2.setText("AI");
+                t3.setText("NCER");
+                t4.setText("Project");
+                t5.setText("Project");
+                t6.setText("Mobile tut");
+                t7.setText("Free");
                 break;
             }
 
             case 5 :
             {
-                t1.setText("DIP");
-                t2.setText("DS");
-                t3.setText("DDB");
-                t4.setText("IND LAB");
-                t5.setText("IND LAB");
-                t6.setText("DMDW tut");
-                t7.setText("Free");
+                t1.setText("Mobile");
+                t2.setText("NCER");
+                t3.setText("SPM/Crypto");
+                t4.setText("Project");
+                t5.setText("Project");
+                t6.setText("AI Lab");
+                t7.setText("AI Lab");
                 break;
             }
 
             case 6 :
             {
                 t1.setText("Quiz");
-                t2.setText("DDB");
-                t3.setText("EOE");
-                t4.setText("Project");
-                t5.setText("Project");
-                t6.setText("PA/PR tut");
+                t2.setText("AI");
+                t3.setText("NCER");
+                t4.setText("SPM/Crypto tut");
+                t5.setText("Free");
+                t6.setText("Free");
                 t7.setText("Free");
                 break;
             }

@@ -63,7 +63,7 @@ public class cs81 extends Activity {
     public void SetTt(int mem){
 
         Spnday.setSelection(mem);
-        
+
 
         switch(mem)
         {
@@ -127,7 +127,7 @@ public class cs81 extends Activity {
                 t4.setText("Project");
                 t5.setText("Project");
                 t6.setText("Project");
-                t7.setText("SPM/Crypto tut");
+                t7.setText("Free");
                 break;
             }
 
@@ -148,7 +148,7 @@ public class cs81 extends Activity {
                 t1.setText("Quiz");
                 t2.setText("Mobile");
                 t3.setText("NCER");
-                t4.setText("");
+                t4.setText("SPM/Crypto tut");
                 t5.setText("Free");
                 t6.setText("Free");
                 t7.setText("Free");

@@ -88,8 +88,8 @@ public class cs82 extends Activity {
                 t3.setText("AI");
                 t4.setText("AI LAB");
                 t5.setText("AI LAB");
-                t6.setText("Free");
-                t7.setText("Free");
+                t6.setText("Project");
+                t7.setText("Project");
                 break;
             }
 
